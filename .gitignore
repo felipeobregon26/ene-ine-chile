@@ -1,3 +1,9 @@
 ﻿*.csv
 *.dta
+*.rds
+*.png
+*.pdf
 pagina_principal.html
+
+# Excepción: tablas de resultados calculadas (sí se versionan)
+!resultados/*.csv
