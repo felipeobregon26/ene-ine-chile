@@ -8,3 +8,4 @@ pagina_principal.html
 # Excepciones: tablas de resultados y gráficos generados (sí se versionan)
 !resultados/*.csv
 !graficos/*.png
+.Rproj.user

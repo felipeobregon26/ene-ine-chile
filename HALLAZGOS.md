@@ -1,3 +1,8 @@
+---
+output:
+  html_document: default
+  pdf_document: default
+---
 # HALLAZGOS — ENE INE Chile 2010-2026
 
 > **Proyecto:** Análisis del mercado laboral chileno con microdatos de la Encuesta Nacional de Empleo (ENE)  
@@ -90,10 +95,13 @@ Los quiebres metodológicos entre épocas (especialmente la transición 2016→2
 
 ---
 
-## 4. Interpretación de Gráficos
+#### 4. Interpretación de Gráficos
 
-### Gráfico 01 — `01_desocupacion_nacional.png`
-**Tasa de desocupación nacional por sexo, 2010–2026 (con LOESS y hitos)**
+
+##### **Tasa de desocupación nacional por sexo, 2010–2026 (con LOESS y hitos)**
+
+![Desocupacion nacional (Gráfico 1).](graficos/01_desocupacion_nacional.png)
+
 
 - La desocupación femenina se mantuvo consistentemente por encima de la masculina durante toda la serie, con una brecha media de ~1.5 pp en el período pre-COVID.
 - Se observa una **tendencia descendente** desde el pico post-crisis de 2010 (8.2%) hasta el mínimo de 2013 (6.1%), seguida de una leve alza hacia 2018–2019.
@@ -104,8 +112,11 @@ Los quiebres metodológicos entre épocas (especialmente la transición 2016→2
 
 ---
 
-### Gráfico 02 — `02_desocupacion_edad.png`
-**Tasa de desocupación por grupo etario (6 grupos), 2010–2026**
+
+##### **Tasa de desocupación por grupo etario (6 grupos), 2010–2026**
+
+![Desocupación por Edad (Gráfico 2).](graficos/02_desocupacion_edad.png)
+
 
 - El grupo **15–24 años** (desocupación juvenil) es el de mayor volatilidad y nivel, oscilando entre el 15% y el 50% según trimestre. El pico COVID superó el 30% en tendencia LOESS.
 - Los grupos **25–34** y **35–44** presentan niveles intermedios y son los más afectados en términos absolutos de personas dado su tamaño.
@@ -115,8 +126,11 @@ Los quiebres metodológicos entre épocas (especialmente la transición 2016→2
 
 ---
 
-### Gráfico 03 — `03_antofagasta_vs_nacional.png`
-**Antofagasta (Región 2) vs. Nacional, 2010–2026**
+
+##### **Antofagasta (Región 2) vs. Nacional, 2010–2026**
+
+![Antofagasta vs nacional (Gráfico 3).](graficos/03_antofagasta_vs_nacional.png)
+
 
 - Hasta 2013, Antofagasta tenía una TD **inferior** a la nacional en ~1 pp, posiblemente por el auge minero y la alta demanda de empleo.
 - A partir de 2014–2015 la situación se **invierte**: la región supera al promedio nacional y la brecha se amplía hasta ~1.7 pp en 2017–2018, coincidiendo con la desaceleración del ciclo minero del cobre.
@@ -125,8 +139,9 @@ Los quiebres metodológicos entre épocas (especialmente la transición 2016→2
 
 ---
 
-### Gráfico 04 — `04_desocupacion_sexo_nacional.png`
-**Brecha de género nacional (TD y panel de brecha), 2010–2026**
+##### **Brecha de género nacional (TD y panel de brecha), 2010–2026**
+
+![Brecha de género naciona (Gráfico 4).](graficos/04_desocupacion_sexo_nacional.png)
 
 - El panel superior confirma la persistencia histórica de la brecha: la TD femenina supera en promedio 1.5–2.5 pp a la masculina en el período 2010–2019.
 - El panel inferior (brecha Mujer − Hombre) muestra que la brecha se **comprimió marcadamente durante COVID** (llegando a ~0.4 pp), porque el mercado laboral masculino es más sensible a las contracciones económicas, especialmente en sectores como construcción y transporte.
@@ -134,8 +149,10 @@ Los quiebres metodológicos entre épocas (especialmente la transición 2016→2
 
 ---
 
-### Gráfico 05 — `05_desocupacion_sexo_antofagasta.png`
-**Brecha de género en Antofagasta (TD y panel de brecha), 2010–2026**
+##### **Brecha de género en Antofagasta (TD y panel de brecha), 2010–2026**
+
+![Desocupacion sexo antofagasta (Gráfico 5).](graficos/05_desocupacion_sexo_antofagasta.png)
+
 
 - Antofagasta muestra una estructura de género atípica: en varios períodos (2015–2016, 2020–2021) la brecha se **invierte**, es decir, los hombres tienen mayor TD que las mujeres. Esto refleja el carácter masculinizado del sector minero: en fases de contracción, el desempleo masculino sube más que el femenino.
 - La banda de incertidumbre (IC 95%) del LOESS es notablemente más amplia que en el gráfico nacional, evidenciando la menor precisión de las estimaciones regionales por tamaño de muestra.
@@ -144,8 +161,11 @@ Los quiebres metodológicos entre épocas (especialmente la transición 2016→2
 
 ---
 
-### Gráfico 06 — `06_desocupacion_grupos_edad.png`
-**Desocupación juvenil (15-24) vs. adulta (25-54) y mayores (55+), 2010–2026**
+##### **Desocupación juvenil (15-24) vs. adulta (25-54) y mayores (55+), 2010–2026**
+
+![Desocupacion grupos edad (Gráfico 6).](graficos/06_desocupacion_grupos_edad.png)
+
+06_desocupacion_grupos_edad
 
 - La brecha entre desocupación juvenil y adulta es estructuralmente grande: el grupo 15–24 duplica o triplica la TD del grupo 25–54 en todos los años.
 - COVID impactó de forma diferencial: el grupo 25–54 registró el mayor salto absoluto en puntos porcentuales (de ~5% a ~12%), mientras que en 15–24 el shock fue relativamente menor en términos de variación relativa dado su ya elevado nivel base.
@@ -154,8 +174,11 @@ Los quiebres metodológicos entre épocas (especialmente la transición 2016→2
 
 ---
 
-### Gráfico 07 — `07_covid_por_sexo.png`
-**Zoom período COVID (2019–2022): TD y tasa de participación por sexo**
+##### **Zoom período COVID (2019–2022): TD y tasa de participación por sexo**
+
+
+![Covid por sexo (Gráfico7).](graficos/07_covid_por_sexo.png)
+
 
 - El panel superior (TD) muestra el rápido ascenso hacia la desocupación máxima en el segundo trimestre de 2020, con ambos sexos alcanzando ~13–14% simultáneamente.
 - El panel inferior (tasa de participación) es el hallazgo más revelador: **las mujeres registraron una caída de participación mucho más pronunciada** (de ~48% a ~38%), mientras los hombres cayeron de ~70% a ~63%. Esto indica un fenómeno de **desaliento selectivo femenino**: muchas mujeres dejaron de buscar empleo (salen de la PEA) en lugar de aparecer como desocupadas.
