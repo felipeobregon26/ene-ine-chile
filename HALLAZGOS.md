@@ -1,8 +1,9 @@
----
-title: "HALLAZGOS — ENE INE Chile 2010-2026"
-proyecto: "Análisis del mercado laboral chileno con microdatos de la ENE"
-autor: "Felipe Obregón"
-fecha_actualizacion: "10/09/2026"
+# HALLAZGOS — ENE INE Chile 2010-2026
+
+> **Proyecto:** Análisis del mercado laboral chileno con microdatos de la Encuesta Nacional de Empleo (ENE)  
+> **Autor:** Felipe Obregón  
+> **Última actualización:** 10-09-2026
+
 ---
 
 ## 1. Resumen del Proyecto
