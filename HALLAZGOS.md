@@ -1,8 +1,4 @@
 ---
-output:
-  html_document: default
-  pdf_document: default
----
 # HALLAZGOS — ENE INE Chile 2010-2026
 
 > **Proyecto:** Análisis del mercado laboral chileno con microdatos de la Encuesta Nacional de Empleo (ENE)  
